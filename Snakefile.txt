@@ -1,0 +1,8 @@
+configfile: "/mnt/cbis/home/yongshan/strandedness_snakemake/config/config.yaml"
+
+include: "rules/common.smk"
+include: "rules/get_strand.smk"
+
+rule all:
+    input:
+        expand(config["OUT_FILE"]+".txt",sample_name=SAMPLES)

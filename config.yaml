@@ -1,0 +1,5 @@
+RESULTS_PATH: /mnt/cbis/home/yongshan/strandedness_snakemake/results/{sample_name}/
+samples: /mnt/cbis/home/yongshan/strandedness_snakemake/config/samples.tsv
+GTF: /mnt/gtklab01/linglab/mmusculus_annotation_files/gencode.vM29.primary_assembly.annotation.gtf
+KALLISTO_INDEX: /mnt/cbis/home/yongshan/strandedness_snakemake/kallisto_index
+OUT_FILE: /mnt/cbis/home/yongshan/strandedness_snakemake/results/{sample_name}/{sample_name}
